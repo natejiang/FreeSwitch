@@ -9,7 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.transform.Result;
+
 
 import org.apache.xmlrpc.client.XmlRpcClient;
 import org.apache.xmlrpc.client.XmlRpcClientConfigImpl;
@@ -42,14 +42,7 @@ public class Originate extends HttpServlet
 		} 
 		rd = request.getRequestDispatcher("/result.jsp");		
 		rd.forward(request, response);
-		 
-		  
-		 
-		
 		
 	}
-	
-	
-	
-	
+
 }

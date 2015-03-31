@@ -7,12 +7,11 @@
 <title>originate</title>
 </head>
 <body>
-	<form method="post" action="originate">
+	<form method="post" action="controller">
 		leg-a:<input type="text" name="lega"/><br/>
-		leg-b:<input type="text" name="legb"/><br/>
+		api:<input type="text" name="api"/><br/>
 		server:<input type="text" name="server"/><br/>
 		call:<input type="submit" value="call"/>		
 	</form>
-
 </body>
 </html>

@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% out.println(request.getAttribute("result"));%>
+<% 
+	out.println(request.getAttribute("result"));
+%>
 	
 </body>
 </html>
